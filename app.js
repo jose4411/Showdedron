@@ -8,7 +8,7 @@ const scenes=[
 {name:'BTS',title:'Siete luces.<br><em>Muchísima emoción.</em>',sub:'RM · Jin · SUGA · j-hope · Jimin · V · Jung Kook',label:'02 · UN CIELO MUY BTS',shape:'bts',color:275},
 {name:'Dynamite',title:'Sube la música.<br><em>Se vale cantar.</em>',sub:'Y si te sabes la coreografía… este es tu momento.',label:'03 · UN POQUITO DE DYNAMITE',shape:'star',color:40},
 {name:'ARMY',title:'Tu emoción<br><em>también cuenta.</em>',sub:'Estés donde estés, sigues siendo parte de ARMY.',label:'04 · TU LUZ TAMBIÉN ESTÁ AQUÍ',shape:'army',color:295},
-{name:'Universo',title:'Una vuelta<br><em>por el universo.</em>',sub:'Porque una amiga tan ARMY merece un show a lo grande.',label:'05 · SIGUIENTE PARADA: LAS ESTRELLAS',shape:'planet',color:250},
+{name:'Universo',title:'Una vuelta<br><em>por el universo.</em>',sub:'Porque una chica tan ARMY merece un show a lo grande.',label:'05 · SIGUIENTE PARADA: LAS ESTRELLAS',shape:'planet',color:250},
 {name:'Sonríe',title:'A ver esa<br><em>sonrisita.</em>',sub:'Esa era la misión de esta pequeña sorpresa.',label:'06 · MISIÓN: SACARTE UNA SONRISA',shape:'smile',color:45},
 {name:'Para ti',title:'Te quiero.<br><em>Que siga el show.</em>',sub:'Y seguiré intentando sacarte una sonrisa. ✦',label:'07 · POR MUCHAS MÁS RISAS',shape:'final',color:280}];
 function resize(){w=$('#experience').clientWidth;h=$('#experience').clientHeight;dpr=Math.min(devicePixelRatio||1,2);canvas.width=w*dpr;canvas.height=h*dpr;canvas.style.width=w+'px';canvas.style.height=h+'px';ctx.setTransform(dpr,0,0,dpr,0,0);setTargets(started?scenes[Math.max(0,scene)].shape:'bts');} 
